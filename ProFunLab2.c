@@ -1,23 +1,23 @@
-// #include <stdio.h>
-// #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-// int main()
-// {
-//     int n;
-//     scanf("%d", &n);
-//     for (int i = 1; i <= n; i++)
-//     {
-//         for (int j = 1; j <= n; j++)
-//         {
-//             if (i == 1 || i == n || j == 1 || j == n)
-//                 printf("*");
-//             else
-//                 printf(" ");
-//         }
-//         printf("\n");
-//     }
-//     return 0;
-// }
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            if (i == 1 || i == n || j == 1 || j == n)
+                printf("*");
+            else
+                printf(" ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 
 // Pseudo code
 // 1.กำหนดค่า n
@@ -30,31 +30,31 @@
 //             1.แสดงผลออกมาเป็น " "
 //     2.ขึ้นบรรทัดใหม่
 
-// #include <stdio.h>
-// int main()
-// {
-//     int n1, n2, ans;
-//     scanf("%d",&n1);
-//     scanf("%d",&n2);
-//     if (n1 > n2)
-//     {
-//         for (int i = 1; i <= n1; i++)
-//         {
-//             if (n1 % i == 0 && n2 % i == 0)
-//                 ans = i;
-//         }
-//     }
-//     else if (n2 > n1)
-//     {
-//         for (int i = 1; i <= n2; i++)
-//         {
-//             if (n1 % i == 0 && n2 % i == 0)
-//                 ans = i;
-//         }
-//     }
-//     printf("%d",ans);
-//     return 0;
-// }
+#include <stdio.h>
+int main()
+{
+    int n1, n2, ans;
+    scanf("%d",&n1);
+    scanf("%d",&n2);
+    if (n1 > n2)
+    {
+        for (int i = 1; i <= n1; i++)
+        {
+            if (n1 % i == 0 && n2 % i == 0)
+                ans = i;
+        }
+    }
+    else if (n2 > n1)
+    {
+        for (int i = 1; i <= n2; i++)
+        {
+            if (n1 % i == 0 && n2 % i == 0)
+                ans = i;
+        }
+    }
+    printf("%d",ans);
+    return 0;
+}
 // pseudo code
 // 1.สร้างตัวแปร n1 n2 ans
 // 2.รับค่า n1
@@ -72,36 +72,36 @@
 // #include <stdio.h>
 // #include <stdlib.h>
 
-// int main()
-// {
-//     int num, first, con;
-//     int div = 2;
-//     printf("Enter :");
-//     scanf("%d", &num);
-//     while (div <= num)
-//     {
-//         if (num % div == 0)
-//         {
-//             first = div;
-//             printf("%d", first);
-//             break;
-//         }
-//         else
-//             div += 1;
-//     }
-//     con = num / div;
-//     while (con != 1)
-//     {
-//         if (con % div == 0)
-//         {
-//             printf(" x %d", div);
-//             con /= div;
-//         }
-//         else
-//             div += 1;
-//     }
-//     return 0;
-// }
+int main()
+{
+    int num, first, con;
+    int div = 2;
+    printf("Enter :");
+    scanf("%d", &num);
+    while (div <= num)
+    {
+        if (num % div == 0)
+        {
+            first = div;
+            printf("%d", first);
+            break;
+        }
+        else
+            div += 1;
+    }
+    con = num / div;
+    while (con != 1)
+    {
+        if (con % div == 0)
+        {
+            printf(" x %d", div);
+            con /= div;
+        }
+        else
+            div += 1;
+    }
+    return 0;
+}
 // pseudo code
 // 1.สร้างตัวแปร num first con
 // 2.กำหนดค่า div = 2
@@ -142,7 +142,7 @@
 //     return 0;
 // }
 
-// code พี่เมจิ
+// code พี่
 //  #include <stdio.h>
 //  int main()
 //  {
