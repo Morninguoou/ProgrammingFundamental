@@ -7,8 +7,8 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    int temp1;
-    int temp2;
+    int temp1 = 0;
+    int temp2 = 0;
     if (a >= b) // a b
     {
         if (c >= a)
